@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <title>Formulário JSF</title>
+    <h:outputStylesheet name="css/style.css" />
+</h:head>
+<h:body>
+
+    <h:form>
+        <h1>Dados Pessoais</h1>
+
+        <!-- Campo para nome -->
+        <h:outputLabel for="nome" value="Nome:" />
+        <h:inputText id="nome" value="#{meuBean.nome}" required="true" />
+        <br/><br/>
+
+        <!-- Campo para sobrenome -->
+        <h:outputLabel for="sobrenome" value="Sobrenome:" />
+        <h:inputText id="sobrenome" value="#{meuBean.sobrenome}" required="true" />
+        <br/><br/>
+
+        <!-- Campo para telefone -->
+        <h:outputLabel for="fone" value="Telefone:" />
+        <h:inputText id="fone" value="#{meuBean.fone}" required="true" />
+        <br/><br/>
+
+        <!-- Campo para email -->
+        <h:outputLabel for="email" value="Email:" />
+        <h:inputText id="email" value="#{meuBean.email}" required="true" />
+        <br/><br/>
+
+        <!-- Botão para enviar os dados -->
+        <h:commandButton value="Enviar" action="#{meuBean.enviar}" />
+
+    </h:form>
+
+</h:body>
+</html>

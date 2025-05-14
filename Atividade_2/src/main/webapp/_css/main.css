@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h:form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+    box-sizing: border-box;
+}
+
+
+h:outputLabel {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+h:inputText {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+h:commandButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+
+h:commandButton:hover {
+    background-color: #45a049;
+}
+
+
+h:messages {
+    color: red;
+    font-size: 12px;
+}

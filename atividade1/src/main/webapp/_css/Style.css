@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+	background-color: lightgray;
+}
+main{
+	border: 4px solid black;
+	margin-right: 4rem;
+	margin-left: 4rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	background-color: white;
+}
+
+h1{
+	font-size: 50px;
+}
+
+
+#dados{
+	display: flax;
+	
+}
+#fotoDiv{
+	display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+#perfil{
+	width: 200px;
+	height : 250px;
+	
+}
+
+.paragrafos{
+	text-align: justify;
+}
+
